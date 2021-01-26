@@ -29,10 +29,10 @@ namespace HitTesting
 
 
             RegisterEvents(RootGrid);
-            RegisterEvents(Content);
-            RegisterEvents(ContentChild);
-            RegisterEvents(Overlay);
-            RegisterEvents(OverlayChild);
+            RegisterEvents(A);
+            RegisterEvents(AA);
+            RegisterEvents(B);
+            RegisterEvents(BB);
         }
 
         void RegisterEvents(UIElement element)
